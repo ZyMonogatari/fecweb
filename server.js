@@ -11,4 +11,4 @@ app.get('/', function(req, res){
 		res.render('home');
 });
 
-app.listen(port);
+app.listen(process.env.PORT || port);
